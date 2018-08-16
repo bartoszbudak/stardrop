@@ -2,6 +2,14 @@
 // Header.js //
 //===========//
 import React from 'react'
+import Members from './Members'
+import Live from './Live'
+import Contact from './Contact'
+import Releases from './Releases'
+import MV from './MV'
+import Photos from './Photos'
+import News from './News'
+
 
 
 class Content extends React.Component {
@@ -53,6 +61,30 @@ class Content extends React.Component {
 
     return (
       <section>
+        {/* Image */}
+        <section class="hero">
+          <div class="hero-body">
+            <div class="container">
+              <div class="card">
+                <div class="card-image">
+                  <img src="img/group.jpg"></img>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* MEMBERS */}
+
+        <Members></Members>
+        <Releases></Releases>
+        <News></News>
+        <Live></Live>
+        <Photos></Photos>
+        <MV></MV>
+        <Contact></Contact>
+
+
+
 
       </section>
         

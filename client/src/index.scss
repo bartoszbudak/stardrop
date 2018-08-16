@@ -3,3 +3,25 @@
 @import "bulma/sass/utilities/derived-variables.sass";
 @import 'bulma/bulma';
 @import "bulma-extensions/bulma-divider/src/sass/index.sass";
+
+body{
+  // background-image: url(/img/background.jpg)
+}
+.subtitle{
+  // color: white;
+}
+.navbar{
+  // background-color: transparent !important;
+  .navbar-item{
+    // color: white;
+  }
+}
+
+.card{
+  background-color: transparent !important;
+}
+
+.hero li{
+  // color: white !important;
+}
+

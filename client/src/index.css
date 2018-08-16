@@ -6697,3 +6697,6 @@ label.panel-block {
   .is-divider.is-white-bis::before,
   .is-divider-vertical.is-white-bis::before {
     border-left-color: #fafafa; }
+
+.card {
+  background-color: transparent !important; }
