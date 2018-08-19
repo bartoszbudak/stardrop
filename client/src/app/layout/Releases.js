@@ -14,11 +14,24 @@ class Releases extends React.Component {
 
   render() {
 
+    let releases;
+
+    switch(this.props.lang){
+      case 'eng':
+        releases = 'RELEASES'
+        break;
+      case 'jp':
+        releases = 'リリース情報'
+        break;
+      default:
+
+    }
+
     return (
         <section class="hero" id='releases'>
         <div class="hero-body">
           <div class="container">
-          <div className="is-divider" data-content="RELEASES"></div>
+          <div className="is-divider" data-content={releases}></div>
 
           </div>
         </div>

@@ -26,7 +26,7 @@ class Content extends React.Component {
 
     this.state = {
       isActive: false,
-      showModal: false
+      showModal: false,
     }
   }
 
@@ -35,7 +35,7 @@ class Content extends React.Component {
         showModal: !prevState.showModal
       }))
   }
-
+d
   render() {
 
     let title;
@@ -65,7 +65,7 @@ class Content extends React.Component {
         <section class="hero">
           <div class="hero-body">
             <div class="container">
-              <div class="card">
+              <div class="card is-shadowless">
                 <div class="card-image">
                   <img src="img/group.jpg"></img>
                 </div>
@@ -73,15 +73,14 @@ class Content extends React.Component {
             </div>
           </div>
         </section>
-        {/* MEMBERS */}
 
-        <Members></Members>
-        <Releases></Releases>
-        <News></News>
-        <Live></Live>
-        <Photos></Photos>
-        <MV></MV>
-        <Contact></Contact>
+        <Members lang={this.props.lang}></Members>
+        <Releases lang={this.props.lang}></Releases>
+        <News lang={this.props.lang}></News>
+        <Live lang={this.props.lang}></Live>
+        <Photos lang={this.props.lang}></Photos>
+        <MV lang={this.props.lang}></MV>
+        <Contact lang={this.props.lang}></Contact>
 
 
 

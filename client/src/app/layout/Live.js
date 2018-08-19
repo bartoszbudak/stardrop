@@ -12,13 +12,28 @@ class Live extends React.Component {
     }
   }
 
+  
+
   render() {
+
+    let live;
+
+    switch(this.props.lang){
+      case 'eng':
+        live = 'LIVE'
+        break;
+      case 'jp':
+        live = 'ライブ情報'
+        break;
+      default:
+
+    }
 
     return (
         <section class="hero" id='live'>
         <div class="hero-body">
           <div class="container">
-          <div className="is-divider" data-content="LIVE"></div>
+          <div className="is-divider" data-content={live}></div>
 
           </div>
         </div>

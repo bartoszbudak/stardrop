@@ -4,24 +4,21 @@
 @import 'bulma/bulma';
 @import "bulma-extensions/bulma-divider/src/sass/index.sass";
 
-body{
-  // background-image: url(/img/background.jpg)
-}
-.subtitle{
-  // color: white;
-}
-.navbar{
-  // background-color: transparent !important;
-  .navbar-item{
-    // color: white;
-  }
-}
-
 .card{
   background-color: transparent !important;
 }
 
-.hero li{
-  // color: white !important;
+.language-select{
+  cursor: pointer;
+  transition: .4s;
+
+
+  &:hover{
+    background: #cdcdcd;
+    color: white;
+  }
 }
 
+#members .hero-body, #contact .hero-body,#id .hero-body, #live .hero-body,#releases .hero-body,#photos .hero-body, #news .hero-body{
+  padding-top: 0;
+}

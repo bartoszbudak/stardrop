@@ -9,8 +9,8 @@ class Footer extends React.Component {
     return (
       <nav className="navbar is-transparent is-fixed-bottom" aria-label="main navigation">
         <div className="navbar-brand navbar-menu-override">
-            <div className="navbar-item" onClick={(e) => this.props.setLang('eng')}>English</div>
-            <div className="navbar-item" onClick={(e) => this.props.setLang('jp')}>日本語</div>
+            <div className="navbar-item language-select" onClick={(e) => this.props.setLang('eng')}>English</div>
+            <div className="navbar-item language-select" onClick={(e) => this.props.setLang('jp')}>日本語</div>
         </div>
       </nav>
     )

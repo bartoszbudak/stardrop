@@ -14,11 +14,24 @@ class Contact extends React.Component {
 
   render() {
 
+    let contact;
+
+    switch(this.props.lang){
+      case 'eng':
+        contact = 'CONTACT'
+        break;
+      case 'jp':
+        contact = 'お問い合わせ'
+        break;
+      default:
+
+    }
+
     return (
         <section class="hero" id='contact'>
         <div class="hero-body">
           <div class="container">
-          <div className="is-divider" data-content="CONTACT"></div>
+          <div className="is-divider" data-content={contact}></div>
 
           </div>
         </div>
