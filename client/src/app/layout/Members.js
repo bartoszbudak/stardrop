@@ -30,20 +30,42 @@ class Members extends React.Component {
                     <div className="columns is-centered">
                     <div className="column is-one-fifths"> 
                         <div>
-                            <figure className="image is-128x128 project-circle">
-                                <img src="img/wk.png" alt=""/>
+                            <figure className="image is-128x128">
+                                <img src="img/seira.jpg" alt=""/>
                             </figure>
                         </div>
                     </div>
                     <div className="column is-four-fifths"> 
                         <ul>
-                            <li>
-                            MEMBER 1
-                            </li>
-                            <li>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </li>
+                            <li>Seira</li>
+                            <li>Vocals / Guitar 2</li>
+                            <li>Blood Type: A</li>
+                            <li>Horoscope: Gemini</li>
+                            <li>Fun Fact: My childhood dream was to become a magical girl*~</li>
                         </ul>
+                    </div>
+                    </div>
+                </div>
+              </div>
+              <div className="columns is-centered">
+                <div className="column project-cont">
+                    <div className="columns is-centered">
+                    <div className="column is-four-fifths"> 
+                        <ul className="member__even">
+                            <li>Haru</li>
+                            <li>Guitar 1</li>
+                            <li>Blood Type: N/A</li>
+                            <li>Horoscope: Aquarius</li>
+                            <li>Fun Fact: N/A</li>
+                        </ul>
+                    </div>
+                    <div className="column is-one-fifths"> 
+                    <div>
+                            <figure className="image is-128x128 project-circle">
+                                <img src="img/haru.jpg" alt=""/>
+                            </figure>
+                        </div>
+
                     </div>
                     </div>
                 </div>
@@ -54,18 +76,17 @@ class Members extends React.Component {
                     <div className="column is-one-fifths"> 
                         <div>
                             <figure className="image is-128x128 project-circle">
-                                <img src="img/wk.png" alt=""/>
+                                <img src="img/rin.jpg" alt=""/>
                             </figure>
                         </div>
                     </div>
                     <div className="column is-four-fifths"> 
                         <ul>
-                            <li>
-                            MEMBER 2
-                            </li>
-                            <li>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </li>
+                            <li>Lyn / Rin</li>
+                            <li>Bass</li>
+                            <li>Blood Type: O</li>
+                            <li>Horoscope: Leo</li>
+                            <li>Fun Fact: I grew up in Ibaraki, Japan!</li>
                         </ul>
                     </div>
                     </div>
@@ -74,46 +95,22 @@ class Members extends React.Component {
               <div className="columns is-centered">
                 <div className="column project-cont">
                     <div className="columns is-centered">
-                    <div className="column is-one-fifths"> 
-                        <div>
-                            <figure className="image is-128x128 project-circle">
-                                <img src="img/wk.png" alt=""/>
-                            </figure>
-                        </div>
-                    </div>
                     <div className="column is-four-fifths"> 
-                        <ul>
-                            <li>
-                            MEMBER 3
-                            </li>
-                            <li>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </li>
+                        <ul className="member__even">
+                            <li>K.</li>
+                            <li>Drums</li>
+                            <li>Blood Type: B</li>
+                            <li>Horoscope: Gemini</li>
+                            <li>Fun Fact: I can cook minute rice in 58 seconds</li>
                         </ul>
                     </div>
-                    </div>
-                </div>
-              </div>
-              <div className="columns is-centered">
-                <div className="column project-cont">
-                    <div className="columns is-centered">
                     <div className="column is-one-fifths"> 
                         <div>
-                            <figure className="image is-128x128 project-circle">
-                                <img src="img/wk.png" alt=""/>
-                            </figure>
+                                <figure className="image is-128x128 project-circle">
+                                    <img src="img/k.jpg" alt=""/>
+                                </figure>
+                            </div>
                         </div>
-                    </div>
-                    <div className="column is-four-fifths"> 
-                        <ul>
-                            <li>
-                            MEMBER 4
-                            </li>
-                            <li>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </li>
-                        </ul>
-                    </div>
                     </div>
                 </div>
               </div>

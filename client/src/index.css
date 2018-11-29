@@ -6710,3 +6710,6 @@ label.panel-block {
 
 #members .hero-body, #contact .hero-body, #id .hero-body, #live .hero-body, #releases .hero-body, #photos .hero-body, #news .hero-body {
   padding-top: 0; }
+
+.member__even {
+  text-align: right; }

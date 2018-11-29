@@ -106,7 +106,7 @@ class Header extends React.Component {
       <nav className="navbar is-transparent is-fixed-top" aria-label="main navigation">
 
         <div className="navbar-brand">
-          <img src="img/stardrop.png" alt="Stardrop Logo" width="80" height="60" />
+          {/* <img src="img/stardrop.png" alt="Stardrop Logo" width="80" height="60" /> */}
           <a role="button" className="navbar-burger" onClick={this.toggleNav} >
             <span></span>
             <span></span>
