@@ -26,3 +26,28 @@
 .member__even{
   text-align: right;
 }
+
+.container{
+  width: initial !important;
+}
+
+.content{
+  display: grid;
+  justify-content: center;
+  background: url("/img/background.jpg") no-repeat fixed center;;
+}
+
+.content-main{
+  width: 80vw;
+  background: white;
+  
+}
+
+.is-divider{
+  margin: 2rem 1rem;
+}
+
+.hero-image__group{
+  padding: 10px
+}
+

@@ -30,13 +30,9 @@ class Live extends React.Component {
     }
 
     return (
-        <section class="hero" id='live'>
-        <div class="hero-body">
-          <div class="container">
-          <div className="is-divider" data-content={live}></div>
+        <section id='live'>
 
-          </div>
-        </div>
+          <div className="is-divider" data-content={live}></div>
       </section>
         
     )

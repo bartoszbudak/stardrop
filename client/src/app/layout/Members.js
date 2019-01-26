@@ -21,10 +21,13 @@ class Members extends React.Component {
 
 
     return (
-        <section class="hero" id='members'>
+
+        
+        <section id='members'>
+            <div className="is-divider" data-content="MEMBERS"></div>
+        <div class="hero" >
         <div class="hero-body">
           <div class="container">
-          <div className="is-divider" data-content="MEMBERS"></div>
           <div className="columns is-centered">
                 <div className="column project-cont">
                     <div className="columns is-centered">
@@ -116,6 +119,8 @@ class Members extends React.Component {
               </div>
           </div>
         </div>
+        </div>
+
       </section>
 
 

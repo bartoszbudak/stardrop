@@ -28,13 +28,10 @@ class Contact extends React.Component {
     }
 
     return (
-        <section class="hero" id='contact'>
-        <div class="hero-body">
-          <div class="container">
-          <div className="is-divider" data-content={contact}></div>
+      <section id='contact'>
 
-          </div>
-        </div>
+        <div className="is-divider" data-content={contact}></div>
+
       </section>
         
     )

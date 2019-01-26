@@ -28,13 +28,15 @@ class Releases extends React.Component {
     }
 
     return (
-        <section class="hero" id='releases'>
-        <div class="hero-body">
-          <div class="container">
+        <section id='releases'>
           <div className="is-divider" data-content={releases}></div>
+          <div className="hero">
+            <div class="hero-body">
+              <div class="container">
 
+              </div>
+            </div>
           </div>
-        </div>
       </section>
         
     )

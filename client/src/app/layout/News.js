@@ -15,13 +15,18 @@ class News extends React.Component {
   render() {
 
     return (
-        <section class="hero" id='news'>
-        <div class="hero-body">
-          <div class="container">
-          <div className="is-divider" data-content="NEWS"></div>
+        <section id='news'>
+        <div className="is-divider" data-content="NEWS"></div>
 
+          <div class="hero" >
+            <div class="hero-body">
+              <div class="container">
+
+              </div>
+            </div>
           </div>
-        </div>
+
+
       </section>
         
     )

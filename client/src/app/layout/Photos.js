@@ -32,13 +32,15 @@ class Photos extends React.Component {
 
 
     return (
-        <section class="hero" id='photos'>
-        <div class="hero-body">
-          <div class="container">
+        <section id='photos'>
           <div className="is-divider" data-content={photos}></div>
-
+          <div class="hero">
+            <div class="hero-body">
+              <div class="container">
+              </div>
+            </div>
           </div>
-        </div>
+
       </section>
         
     )

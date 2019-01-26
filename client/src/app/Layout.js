@@ -42,7 +42,7 @@ class Layout extends React.Component {
       />
       <Header lang={this.state.lang}/>
       <Content lang={this.state.lang}/>
-      <Footer lang={this.state.lang} setLang={this.setLanguage}/> 
+      {/* <Footer lang={this.state.lang} setLang={this.setLanguage}/>  */}
     </Site>
     );
   }

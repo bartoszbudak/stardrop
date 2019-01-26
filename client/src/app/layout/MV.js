@@ -21,24 +21,29 @@ class MV extends React.Component {
   render() {
 
     return (
-        <section className="hero" id='mv'>
-        <div className="hero-body">
-          <div className="container">
-          <div className="is-divider" data-content="MV"></div>
 
-          {this.state.videosYT.map((item, index) => 
+        <section id='mv'>
+         <div className="is-divider" data-content="MV"></div>
+          <div className="hero">
+            <div className="hero-body">
+            <div className="container">
 
-            <div key={index} className="columns">
-                <div className="column">
-                    <iframe title='{index}' width="100%" height="500em" src={item} allowFullScreen></iframe>
-                </div>
+            {this.state.videosYT.map((item, index) => 
+
+              <div key={index} className="columns">
+                  <div className="column">
+                      <iframe title='{index}' width="100%" height="500em" src={item} allowFullScreen></iframe>
+                  </div>
+              </div>
+            
+            )}
+
+
+              </div>
             </div>
-          
-          )}
+         </div>
 
 
-          </div>
-        </div>
       </section>
         
     )
