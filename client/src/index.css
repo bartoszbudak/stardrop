@@ -6748,3 +6748,9 @@ label.panel-block {
 
 .hero-body {
   padding: 1.5rem 1.5rem; }
+
+a {
+  color: grey !important; }
+
+.navbar-item {
+  cursor: pointer; }

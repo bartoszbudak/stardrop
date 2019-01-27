@@ -33,19 +33,22 @@ class Contact extends React.Component {
         <div className="is-divider" data-content={contact}></div>
         <div className="social-icons">
           <span class="icon">
-            <i class="fab fa-facebook-square"></i>
+            <a href="https://www.facebook.com/StarDropMusic/" target="_blank"><i class="fab fa-facebook-square"></i></a>
           </span>
           <span class="icon">
-            <i class="fab fa-twitter-square"></i>
+          <a href="http://twitter.com/StarDropMusic/" target="_blank"><i class="fab fa-twitter-square"></i></a>
           </span>
           <span class="icon">
-            <i class="fab fa-youtube-square"></i>
+          <a href="https://www.facebook.com/StarDropMusic/" target="_blank"><i class="fab fa-youtube-square"></i></a>
           </span>
           <span class="icon">
-            <i class="fab fa-instagram"></i>
+          <a href="https://www.instagram.com/stardropmusic/" target="_blank"><i class="fab fa-instagram"></i></a>
           </span>
           <span class="icon">
-            <i class="fab fa-bandcamp"></i>
+          <a href="https://open.spotify.com/artist/5RJZygK4IjHSr8yytplzFX" target="_blank"><i class="fab fa-spotify"></i></a>
+          </span>
+          <span class="icon">
+          <a href="https://stardropmusic.bandcamp.com/" target="_blank"><i class="fab fa-bandcamp"></i></a>
           </span>
         </div>
 
