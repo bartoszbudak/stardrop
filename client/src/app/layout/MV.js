@@ -32,7 +32,7 @@ class MV extends React.Component {
 
               <div key={index} className="columns">
                   <div className="column">
-                      <iframe title='{index}' width="100%" height="500em" src={item} allowFullScreen></iframe>
+                      <iframe className="center" title='{index}' width="80%" height="500em" src={item} allowFullScreen></iframe>
                   </div>
               </div>
             

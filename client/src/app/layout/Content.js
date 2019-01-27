@@ -45,14 +45,20 @@ d
       <section className="content">
        <section className="content-main">
 
-        <img className="hero-image__group" src="img/group.jpg"></img>
+        <img className="hero-image__group center" src="img/group.jpg"></img>
 
         <Members lang={this.props.lang}></Members>
-        {/* <Releases lang={this.props.lang}></Releases> */}
-        <News lang={this.props.lang}></News>
-        {/* <Live lang={this.props.lang}></Live>
-        <Photos lang={this.props.lang}></Photos> */}
-        <MV lang={this.props.lang}></MV>
+        <div className="columns">
+          {/* <Releases lang={this.props.lang}></Releases> */}
+          {/* <Live lang={this.props.lang}></Live>
+          <Photos lang={this.props.lang}></Photos> */}
+          <div className="column is-two-thirds">
+            <MV lang={this.props.lang}></MV>
+          </div>
+          <div className="column">
+            <News lang={this.props.lang}></News>
+          </div>
+        </div>
         <Contact lang={this.props.lang}></Contact>
 
 
