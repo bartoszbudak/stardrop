@@ -21,7 +21,8 @@ class News extends React.Component {
           <div class="hero" >
             <div class="hero-body">
               <div class="container">
-
+                <a className="twitter-timeline" data-width="400" data-height="500"
+                   href="https://twitter.com/StarDropMusic?ref_src=twsrc%5Etfw">Tweets by StarDropMusic</a>
               </div>
             </div>
           </div>

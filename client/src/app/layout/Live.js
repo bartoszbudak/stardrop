@@ -12,20 +12,6 @@ class Live extends React.Component {
     }
   }
 
-  
-  componentDidMount() {
-    (function (d, s, id) {
-      var js;
-      if (d.getElementById(id)) {
-        return;
-      }
-      js = d.createElement(s);
-      js.id = id;
-      js.src = "https://embedsocial.com/embedscript/in.js";
-      d.getElementsByTagName("head")[0].appendChild(js);
-    }(document, "script", "EmbedSocialInstagramScript"));
-  }
-
   render() {
 
     let live;
@@ -43,10 +29,7 @@ class Live extends React.Component {
 
     return (
         <section id='live'>
-          <a className="twitter-timeline" data-width="400" data-height="500" data-theme="light"
-             href="https://twitter.com/StarDropMusic?ref_src=twsrc%5Etfw">Tweets by StarDropMusic</a>
         </section>
-        
     )
   }
 }
