@@ -6719,15 +6719,32 @@ label.panel-block {
 
 .content {
   display: grid;
-  justify-content: center;
-  background: url("/img/background.jpg") no-repeat fixed center; }
+  justify-content: center; }
 
 .content-main {
   width: 80vw;
-  background: white; }
+  background: white;
+  top: 52px;
+  position: relative; }
 
 .is-divider {
   margin: 2rem 1rem; }
 
 .hero-image__group {
   padding: 10px; }
+
+* {
+  font-family: "Hiragino Kaku Gothic Pro", sans-serif; }
+
+.band-members__list {
+  text-align: center;
+  font-size: 12px; }
+
+.social-icons {
+  text-align: center;
+  font-size: 30px; }
+  .social-icons .icon {
+    padding: 1em; }
+
+.hero-body {
+  padding: 1.5rem 1.5rem; }

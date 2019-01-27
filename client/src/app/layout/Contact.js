@@ -31,6 +31,24 @@ class Contact extends React.Component {
       <section id='contact'>
 
         <div className="is-divider" data-content={contact}></div>
+        <div className="social-icons">
+          <span class="icon">
+            <i class="fab fa-facebook-square"></i>
+          </span>
+          <span class="icon">
+            <i class="fab fa-twitter-square"></i>
+          </span>
+          <span class="icon">
+            <i class="fab fa-youtube-square"></i>
+          </span>
+          <span class="icon">
+            <i class="fab fa-instagram"></i>
+          </span>
+          <span class="icon">
+            <i class="fab fa-bandcamp"></i>
+          </span>
+        </div>
+
 
       </section>
         

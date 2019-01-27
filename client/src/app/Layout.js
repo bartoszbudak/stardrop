@@ -37,7 +37,7 @@ class Layout extends React.Component {
           { 'src': 'https://use.fontawesome.com/releases/v5.0.4/js/all.js'},
         ]}
         link={[
-          {'rel':'stylesheet', 'href': 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'}
+          {'rel':'stylesheet', 'href': 'https://maxcdn.bootstrapcdn.com/font-awesome/5.6.3/css/font-awesome.min.css'}
         ]}
       />
       <Header lang={this.state.lang}/>

@@ -34,13 +34,13 @@
 .content{
   display: grid;
   justify-content: center;
-  background: url("/img/background.jpg") no-repeat fixed center;;
 }
 
 .content-main{
   width: 80vw;
   background: white;
-  
+  top: 52px;
+  position: relative;
 }
 
 .is-divider{
@@ -51,3 +51,23 @@
   padding: 10px
 }
 
+*{
+  font-family: "Hiragino Kaku Gothic Pro", sans-serif
+}
+
+.band-members__list{
+  text-align: center;
+  font-size: 12px;
+}
+
+.social-icons{
+  text-align: center;
+  font-size: 30px;
+  .icon{
+    padding: 1em;
+  }
+}
+
+.hero-body{
+  padding: 1.5rem 1.5rem;
+}

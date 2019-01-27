@@ -26,4 +26,7 @@ src/**/*.css
 
 package-lock.json
 
+server.csr
+server.key
+server.pass.key
 
