@@ -48,10 +48,10 @@ d
         <img className="hero-image__group" src="img/group.jpg"></img>
 
         <Members lang={this.props.lang}></Members>
-        <Releases lang={this.props.lang}></Releases>
+        {/* <Releases lang={this.props.lang}></Releases> */}
         <News lang={this.props.lang}></News>
-        <Live lang={this.props.lang}></Live>
-        <Photos lang={this.props.lang}></Photos>
+        {/* <Live lang={this.props.lang}></Live>
+        <Photos lang={this.props.lang}></Photos> */}
         <MV lang={this.props.lang}></MV>
         <Contact lang={this.props.lang}></Contact>
 

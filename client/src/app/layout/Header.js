@@ -101,6 +101,7 @@ class Header extends React.Component {
     }
 
     return (
+      <div>
       <ClickOutside onClickOutside={this.hideNav}>
 
       <nav className="navbar is-transparent is-fixed-top" aria-label="main navigation">
@@ -118,18 +119,18 @@ class Header extends React.Component {
               <div className="navbar-item" onClick={this.handleScrollToElement} id="members-href" href="">
                 {members}
               </div>
-              <div className="navbar-item" onClick={this.handleScrollToElement} id="releases-href" href="">
+              {/* <div className="navbar-item" onClick={this.handleScrollToElement} id="releases-href" href="">
                 {releases}
-              </div>            
+              </div>             */}
               <div className="navbar-item" onClick={this.handleScrollToElement} id="news-href" href="">
                 {news}
               </div>
-              <div className="navbar-item" onClick={this.handleScrollToElement} id="live-href" href="">
+              {/* <div className="navbar-item" onClick={this.handleScrollToElement} id="live-href" href="">
                 {live}
-              </div>
-              <div className="navbar-item" onClick={this.handleScrollToElement} id="photos-href" href="">
+              </div> */}
+              {/* <div className="navbar-item" onClick={this.handleScrollToElement} id="photos-href" href="">
                 {photos}
-              </div>
+              </div> */}
               <div className="navbar-item" onClick={this.handleScrollToElement} id="mv-href" href="">
                 {mv}
               </div>
@@ -146,6 +147,8 @@ class Header extends React.Component {
       </nav>
         
       </ClickOutside>
+
+      </div>
 
     )
   }
