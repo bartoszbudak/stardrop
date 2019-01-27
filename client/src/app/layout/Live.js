@@ -12,8 +12,6 @@ class Live extends React.Component {
     }
   }
 
-  
-
   render() {
 
     let live;
@@ -31,10 +29,7 @@ class Live extends React.Component {
 
     return (
         <section id='live'>
-
-          <div className="is-divider" data-content={live}></div>
-      </section>
-        
+        </section>
     )
   }
 }
